@@ -1,0 +1,17 @@
+{
+  "name": "parent",
+  "installConfig": {
+    "hoistingLimits": "workspaces"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "child": "1.0.0",
+    "vitest": "^0.23.2"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "workspaces": [
+    "parent",
+    "parent/child"
+  ],
+  "scripts": {
+    "test-all": "yarn workspaces foreach run test"
+  },
+  "packageManager": "yarn@3.2.3"
+}
