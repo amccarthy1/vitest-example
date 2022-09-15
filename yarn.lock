@@ -220,14 +220,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"child@1.0.0, child@workspace:parent/child":
-  version: 0.0.0-use.local
-  resolution: "child@workspace:parent/child"
-  dependencies:
-    vitest: ^0.23.2
-  languageName: unknown
-  linkType: soft
-
 "chownr@npm:^2.0.0":
   version: 2.0.0
   resolution: "chownr@npm:2.0.0"
@@ -1028,7 +1020,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "parent@workspace:parent"
   dependencies:
-    child: 1.0.0
+    subpackage: 1.0.0
     vitest: ^0.23.2
   languageName: unknown
   linkType: soft
@@ -1284,6 +1276,14 @@ __metadata:
   checksum: cc12ab62e795f1e8fc1e9dc3fd81a356e23d7001857bb609a1f4849e133fc8eaa21fbcde8b67121dc52aed9ddcc40720648703368994b7ad588e851f5a33193c
   languageName: node
   linkType: hard
+
+"subpackage@1.0.0, subpackage@workspace:parent/subpackage":
+  version: 0.0.0-use.local
+  resolution: "subpackage@workspace:parent/subpackage"
+  dependencies:
+    vitest: ^0.23.2
+  languageName: unknown
+  linkType: soft
 
 "supports-preserve-symlinks-flag@npm:^1.0.0":
   version: 1.0.0

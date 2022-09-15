@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "child": "1.0.0",
+    "subpackage": "1.0.0",
     "vitest": "^0.23.2"
   },
   "scripts": {

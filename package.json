@@ -2,7 +2,7 @@
   "private": true,
   "workspaces": [
     "parent",
-    "parent/child"
+    "parent/subpackage"
   ],
   "scripts": {
     "test-all": "yarn workspaces foreach run test"
